@@ -1,0 +1,126 @@
+﻿body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url(https://static.vecteezy.com/system/resources/thumbnails/020/389/484/original/purple-neon-glowing-frame-and-reflected-cave-background-video.jpg);
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+
+.container {
+    width: 420px;
+    background: transparent;
+    color: white;
+    border-radius: 10px;
+    padding: 30px 40px;
+    border: 2px solid rgba(255,255,255,.2);
+    box-shadow: 0 0 10px rgba(0,0,0,.1);
+    backdrop-filter: blur(20px);
+}
+
+    .container h1 {
+        text-align: center;
+        font-size: 36px;
+    }
+
+    .container .input-box {
+        position: relative;
+        height: 50px;
+        width: 100%;
+        margin: 30px 0;
+    }
+
+.input-box input {
+    height: 100%;
+    width: 100%;
+    background: transparent;
+    border: 2px solid rgba(255,255,255,.2);
+    border-radius: 40px;
+    outline: none;
+    color: #fff;
+    padding: 20px 45px 20px 20px;
+}
+
+    .input-box input::placeholder {
+        color: #fff;
+    }
+
+
+
+.input-box i {
+    position: absolute;
+    right: 20px;
+    font-size: 20px;
+    transform: translateY(-50%);
+    top: 50%;
+}
+
+.container .remeberForget {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    margin: -15px 0 15px;
+}
+
+.remeberForget label input {
+    margin-right: 3px;
+    accent-color: #fff;
+}
+
+.remeberForget a {
+    color: #fff;
+    text-decoration: none;
+}
+
+    .remeberForget a:hover {
+        text-decoration: underline;
+    }
+
+.container .btn {
+    width: 100%;
+    height: 45px;
+    background-color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0,0,0,.1);
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+}
+
+.container .regesterLink {
+    text-align: center;
+    font-size: 14px;
+    margin: 20px 0 15px;
+}
+
+.regesterLink p a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+    .regesterLink p a:hover {
+        text-decoration: underline;
+    }
+
+
+
+input[type="password"]::-ms-reveal {
+    display: none;
+}
+
+@media screen and (max-width : 450px) {
+    .container {
+        border: none;
+        border-radius: 0;
+        position: absolute;
+        justify-content: center;
+        align-items: end;
+        width: 100%;
+        padding: 100% 10%;
+    }
+}
