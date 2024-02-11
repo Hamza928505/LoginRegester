@@ -123,4 +123,9 @@ input[type="password"]::-ms-reveal {
         width: 100%;
         padding: 100% 10%;
     }
+
+    .container .remeberForget {
+        margin: -15px 0 25px;
+    }
+    
 }
